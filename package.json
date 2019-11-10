@@ -1,0 +1,23 @@
+{
+  "name": "react-layout-effect",
+  "version": "1.0.0",
+  "main": "lib/useLayoutEffect.js",
+  "author": "Alec Larson",
+  "license": "MIT",
+  "repository": "alloc/react-layout-effect",
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "prettier": "^1.17.0",
+    "react": "^16.8.0",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "files": [
+    "lib"
+  ]
+}
