@@ -1,7 +1,7 @@
 {
   "name": "react-layout-effect",
   "version": "1.0.1",
-  "main": "lib/useLayoutEffect.js",
+  "main": "lib/useLayoutEffect",
   "author": "Alec Larson",
   "license": "MIT",
   "repository": "alloc/react-layout-effect",
