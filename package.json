@@ -15,7 +15,8 @@
     "typescript": "^3.6.3"
   },
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "prepare": "npm run build"
   },
   "files": [
     "lib"
