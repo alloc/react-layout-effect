@@ -1,6 +1,6 @@
 {
   "name": "react-layout-effect",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/cjs/useLayoutEffect",
   "module": "dist/esm/useLayoutEffect",
   "author": "Alec Larson",
