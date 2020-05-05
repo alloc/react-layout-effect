@@ -1,7 +1,8 @@
 {
   "name": "react-layout-effect",
   "version": "1.0.3",
-  "main": "lib/useLayoutEffect",
+  "main": "dist/cjs/useLayoutEffect",
+  "module": "dist/esm/useLayoutEffect",
   "author": "Alec Larson",
   "license": "MIT",
   "repository": "alloc/react-layout-effect",
@@ -15,7 +16,7 @@
     "typescript": "^3.6.3"
   },
   "scripts": {
-    "build": "tsc -p .",
+    "build": "tsc -p . --outDir dist/cjs && tsc -p . --module es6 --outDir dist/esm",
     "prepare": "npm run build"
   },
   "files": [
