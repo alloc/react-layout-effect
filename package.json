@@ -20,6 +20,6 @@
     "prepare": "npm run build"
   },
   "files": [
-    "lib"
+    "dist"
   ]
 }
